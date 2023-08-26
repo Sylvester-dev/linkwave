@@ -38,3 +38,4 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 npx prisma generate -> add schema to node module 
 npx prisma db push
+npx prisma studio
