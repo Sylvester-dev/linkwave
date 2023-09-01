@@ -3,6 +3,8 @@ import { redirectToSignIn } from "@clerk/nextjs";
 import { redirect } from "next/navigation";
 import { db } from "@/lib/db";
 
+import { ServerSidebar } from "@/components/server/server-sidebar";
+
 const serverIdLayout = async ({
     children,
     params,
